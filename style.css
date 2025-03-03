@@ -13,6 +13,7 @@ body{
 }
 .body-contents{
     display:flex;
+    margin:100px 300px;
 }
 .image{
     border-right: solid 1px rgb(182, 161, 182);
@@ -80,8 +81,36 @@ h4 span{
         padding: 0 10px;  
     }
 .icons{
-padding: 5px 5px 5px 170px;
+display: flex;
 
+}
+.google{
+    box-shadow: 2px 2px 4px 2px rgb(224, 223, 223);
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    width: 60%;
+}
+.facebook{
+    
+    box-shadow: 0 2px 4px 0 white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+.apple{
+    border: 1px;
+    background-color: white;
+    box-shadow: none;
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
 }
 .fa-google {
     background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
@@ -89,28 +118,22 @@ padding: 5px 5px 5px 170px;
     background-clip: text;
     color: white;
     -webkit-text-fill-color: transparent;
-    text-decoration: none;
-box-shadow: white;
+    padding: 8px;
+    margin: 16px;
+    
   }
   .fa-facebook-f{
     color:blue;
-    padding: 30px;
-    margin: 1px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 45px;
+    padding: 10px;
+    margin: 20px;
+
   }
   .fa-apple{
     color: black;
     text-decoration: none;
-    padding: 30px;
-    margin: 1px;
-    font-size: 30px;
-
+    font-size: 45px;
+    padding: 10px;
+    margin: 20px;
   }
-
-.checkbox{
-    width: 98%;
-    font-size: 14.5px;
-    display:inline-block 3px;
-    border-style: none;
-}
