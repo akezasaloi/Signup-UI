@@ -1,8 +1,9 @@
 body{
-    background-color: rgb(245, 229, 245)
+    background-color: rgb(245, 229, 245);
 }
 .signupform{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Fredoka';
+    font-size: 22px;
     font-size: 16px;
     width: 500px;
     height: 800px;
@@ -10,6 +11,9 @@ body{
     border: none;
     background-color: rgb(245, 229, 245)
 
+}
+#image-title{
+    font-family: Arial, Helvetica, sans-serif;
 }
 .body-contents{
     display:flex;
@@ -25,14 +29,14 @@ body{
 }
 .Name{
     display: flex;
-    width: 90%;
-    padding: 4px;
 }
 #Name{
-    width: 210px;
+    width: 98%;
     height: 30px;
-    padding: auto;
+    padding: 4px;
     margin: auto;
+    border: 0.5px solid rgb(138, 136, 136);
+    border-radius: 5px
 }
 #Email{
     width: 90%;
@@ -40,6 +44,7 @@ body{
     margin: auto;
     padding: auto;
     border: 0.5px solid rgb(138, 136, 136);
+    border-radius: 5px;
 
 }
 #Password{
@@ -48,6 +53,7 @@ body{
     margin: auto;
     padding: auto;
     border: 0.5px solid rgb(138, 136, 136);
+    border-radius: 5px;
 
 }
 #submitbutton{
@@ -57,6 +63,7 @@ body{
     width: 91%;
     height: 35px;
     border: 1px solid black;
+    border-radius: 5px;
 
 }
 #click{
@@ -73,67 +80,58 @@ h4{
     font-size: 16px;
 }
 h4 span{
- background-color:rgb(245, 229, 245);
- padding: 0 10px;
+    background-color:rgb(245, 229, 245);
+    font-family: 'Fredoka';
+    padding: 0 10px;
     }
-    #span{
-        background-color:rgb(245, 229, 245);
-        padding: 0 10px;  
+#span{
+    background-color:rgb(245, 229, 245);
+    padding: 0 10px;  
     }
 .icons{
-display: flex;
+    display: flex;
+}
 
-}
-.google{
-    box-shadow: 2px 2px 4px 2px rgb(224, 223, 223);
-    padding: 10px;
-    margin: 20px;
-    text-align: center;
-    width: 60%;
-}
-.facebook{
-    
-    box-shadow: 0 2px 4px 0 white;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    width: 60%;
-    justify-content: center;
-    align-items: center;
-}
-.apple{
-    border: 1px;
-    background-color: white;
-    box-shadow: none;
-    padding: 10px;
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 60%;
-}
 .fa-google {
     background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
     -webkit-background-clip: text;
     background-clip: text;
     color: white;
     -webkit-text-fill-color: transparent;
-    padding: 8px;
-    margin: 16px;
-    
+    margin: 20px;
+    text-align: center;  
   }
   .fa-facebook-f{
     color:blue;
     text-decoration: none;
-    font-size: 45px;
+    font-size: 25px;
     padding: 10px;
     margin: 20px;
+    text-align: center;
+    width: 95%;
+    height: 30px;
+    border: 1px;
+    background-color: white;
+    border-radius: 15px;
 
   }
   .fa-apple{
     color: black;
     text-decoration: none;
-    font-size: 45px;
+    font-size: 25px;
     padding: 10px;
     margin: 20px;
+    text-align: center;
+    width: 95%;
+    height: 30px;
+    border: 1px;
+    background-color: white;
+    border-radius: 15px;
+  }
+  #signin{
+    text-align: center;
+
+  }
+  #click-button{
+    color: rgb(182, 42, 182);
   }
